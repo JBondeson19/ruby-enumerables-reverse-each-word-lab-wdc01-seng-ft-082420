@@ -8,6 +8,5 @@ def reverse_each_word(sentence1)
 new_output = ""
 array = sentence1.split
   new_output << array.map { |item| item.reverse }
-binding.pry
    new_output.join(" ")
 end
