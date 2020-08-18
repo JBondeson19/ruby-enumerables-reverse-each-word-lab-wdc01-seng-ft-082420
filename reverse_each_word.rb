@@ -9,4 +9,5 @@ new_output = []
 array = sentence1.split
   new_output << array.map { |item| item.reverse }
    new_output.join(" ")
+binding.pry
 end
